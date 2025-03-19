@@ -1,1 +1,19 @@
 @import 'tailwindcss';
+
+@theme {
+  --color-app-neutral-900: #12131a;
+  --color-app-neutral-800: #21222c;
+  --color-app-neutral-700: #2a2b37;
+  --color-app-neutral-600: #404254;
+  --color-app-neutral-200: #e4e4ef;
+  --color-app-neutral-100: #f2f2f7;
+  --color-app-neutral-0: #ffffff;
+
+  --color-app-purple-400: #d3a0fa;
+  --color-app-purple-500: #c27cf8;
+
+  --color-app-yellow-500: #ff9f00;
+
+  --color-app-orange-500: #fe8159;
+  --color-app-orange-800: #da3701;
+}
