@@ -6,7 +6,7 @@ defineSlots<{
 
 <template>
   <div
-    class="w-full mx-auto max-w-[990px] max-sm:px-4 sm:max-[990px]:px-8 transition-all duration-500"
+    class="mx-auto w-full max-w-[990px] transition-all duration-500 max-sm:px-4 sm:max-[990px]:px-8"
   >
     <slot name="default"></slot>
   </div>
