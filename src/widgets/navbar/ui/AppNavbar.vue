@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { BaseContainer } from '@/shared/ui';
+import { ThemeSwitcher } from '@/features/theme-switcher';
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import { BaseContainer } from '@/shared/ui';
           Character Counter
         </span>
       </div>
+      <ThemeSwitcher />
     </BaseContainer>
   </header>
 </template>
